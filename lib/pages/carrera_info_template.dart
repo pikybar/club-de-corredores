@@ -12,8 +12,6 @@ class CarreraInfoTemplate extends StatefulWidget {
     required this.medallaImg,
     required this.description,
     required this.inscripcionPage,
-    // required this.fotorunImg,
-    // required this.fotorunDescription
   });
 
   final List<dynamic> images; //slider images
@@ -21,8 +19,6 @@ class CarreraInfoTemplate extends StatefulWidget {
   final String medallaImg;
   final String description;
   final Inscripcion inscripcionPage;
-  // final String fotorunImg;
-  // final String fotorunDescription;
 
   @override
   State<CarreraInfoTemplate> createState() => _CarreraInfoTemplateState();
@@ -199,17 +195,6 @@ class _CarreraInfoTemplateState extends State<CarreraInfoTemplate> {
                           "descripción fotorun y kit en carrera descripción fotorun y kit en carrera descripción", 
                           style: Theme.of(context).textTheme.bodyLarge!.copyWith(height: 1.254, color: Color.fromARGB(255, 84, 84, 84)),
                         ),
-                        /* ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: colorScheme.primary,
-                            padding: EdgeInsets.symmetric(horizontal: 15), 
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5),),
-                          ),
-                          onPressed: () {
-                            print("comprar");
-                          }, 
-                          child: Text("COMPRAR", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w400),)
-                        ), */
                       ],
                     ),
                   ),
